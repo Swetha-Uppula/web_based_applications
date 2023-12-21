@@ -1,0 +1,138 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/wide_background.jpeg');
+    background-size: cover; /* Maintain image aspect ratio and cover the screen */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333; /* Text color */
+}
+
+/* Header styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav li button {
+    background-color: #fff;
+    color: #333; /* Text color */
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+nav li button:hover {
+    background-color: #333; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main styles for login page */
+
+.login-container {
+    width: 300px;
+    margin: 200px auto;
+    background: black; /* Light background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+}
+
+.login-container h2 {
+    font-size: 24px;
+    color: white; /* Text color */
+    margin: 0 auto 10px; 
+    text-align: center; 
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+	color: darkgray;
+}
+
+.login-container label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.login-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container button {
+    background-color: #814848;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block; 
+    transition: background-color 0.3s; /* Add a smooth hover effect */
+}
+
+.login-container button:hover {
+    background-color: #926262;
+}
+
+/* Footer styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    min-width: 98.7vw;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+	
+}

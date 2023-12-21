@@ -1,0 +1,166 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+	background-image: url('../images/wide_background.jpeg');
+    background-size: cover; /* Maintain image aspect ratio and cover the screen */
+    background-repeat: repeat;
+    background-position: center;
+    color: #333; /* Text color */
+}
+
+.review-container {
+    width: 500px;
+    margin: 200px auto;
+    background: white; /* Light background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Enhanced shadow effect */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav li button {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+nav li button:hover {
+    background-color: grey;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    min-height: 73vh;
+    margin-left: 3%;
+}
+
+section strong{
+    background-color: #d16363;
+    padding:1%;
+    border-radius: 5px;
+}
+.about h1 {
+    color: black;
+    font-size: 55px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.about p,
+ul,
+ol {
+    margin-bottom: 2%;
+}
+
+.about img {
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+}
+
+.image {
+    display: flex;
+}
+
+.description {
+    margin: 3%;
+    max-width: 50%;
+}
+.fa-star, .fa-star-half-alt {
+    color: gold; 
+    margin-left: 5px;
+}
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    margin-left: 20px;
+}
+
+.actions {
+    text-align: center; 
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.edit-button,
+.delete-button {
+    background-color:  #301b1b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 18px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color:  #603838;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin-top: 3%;
+}
